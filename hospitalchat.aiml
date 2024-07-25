@@ -1,0 +1,435 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- General Information -->
+<category>
+    <pattern>WHAT ARE YOUR HOURS OF OPERATION</pattern>
+    <template>
+        Our hospital hours are from 8:00 AM to 5:00 PM, Monday through Friday.
+    </template>
+</category>
+<category>
+    <pattern>WHERE ARE YOU LOCATED</pattern>
+    <template>
+        Our hospital is located at MG Road, Thane, Maharashtra, 200001.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I CONTACT YOU</pattern>
+    <template>
+        You can contact us at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>WHAT DEPARTMENTS DO YOU HAVE</pattern>
+    <template>
+        We have various departments, including Cardiology, Pediatrics, Orthopedics, and Oncology.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR EMERGENCY PROCEDURES</pattern>
+    <template>
+        In case of emergency, dial 911 for immediate assistance. For hospital emergency procedures, please proceed directly to the Emergency Room where our staff will assist you.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR VISITOR GUIDELINES</pattern>
+    <template>
+        Visitor guidelines include visiting hours from 10:00 AM to 8:00 PM. Please check in at the front desk upon arrival.
+    </template>
+</category>
+<category>
+    <pattern>WHERE CAN I FIND PARKING</pattern>
+    <template>
+        Parking is available in the hospital garage located on Elm Street. Valet parking is also available at the main entrance.
+    </template>
+</category>
+<category>
+    <pattern>DO YOU HAVE A CAFETERIA</pattern>
+    <template>
+        Yes, we have a cafeteria located on the ground floor, offering a variety of meals and snacks.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I PROVIDE FEEDBACK</pattern>
+    <template>
+        You can provide feedback through our website's contact form or by calling our patient relations department at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>IS THERE A PHARMACY ON-SITE</pattern>
+    <template>
+        Yes, there is a pharmacy on-site where you can fill prescriptions and purchase over-the-counter medications.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SERVICES DO YOU PROVIDE FOR SENIOR CITIZENS</pattern>
+    <template>
+        Services for senior citizens include specialized geriatric care, fall prevention programs, and assistance with activities of daily living.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I DONATE BLOOD</pattern>
+    <template>
+        To donate blood, visit our Blood Donation Center located on the first floor of the hospital or contact our Blood Donation Services at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I VOLUNTEER AT THE HOSPITAL</pattern>
+    <template>
+        To volunteer at the hospital, please fill out the Volunteer Application Form available on our website or contact our Volunteer Services at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR WAIT TIMES FOR EMERGENCY ROOM VISITS</pattern>
+    <template>
+        Emergency room wait times vary depending on patient volume and severity of cases. For current wait times, please call our Emergency Room reception desk at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I RECEIVE A TOUR OF THE HOSPITAL</pattern>
+    <template>
+        To receive a hospital tour, please contact our Guest Relations department to schedule a tour at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR VISITING HOURS FOR INPATIENTS</pattern>
+    <template>
+        Visiting hours for inpatients are from 10:00 AM to 8:00 PM daily. Special arrangements can be made with the nursing staff for exceptional circumstances.
+    </template>
+</category>
+<category>
+    <pattern>WHAT IS YOUR POLICY ON SMOKING</pattern>
+    <template>
+        Our hospital is smoke-free. Smoking is not permitted anywhere on hospital grounds, including outdoor areas.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I RECEIVE MEDICAL INTERPRETATION SERVICES</pattern>
+    <template>
+        To receive medical interpretation services, please inform our staff of your language preference when scheduling your appointment, or contact our Language Services department at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR POLICIES ON PATIENT ADVOCACY</pattern>
+    <template>
+        Our policies on patient advocacy ensure that your rights as a patient are respected and that you receive the highest quality of care. Please contact our Patient Advocacy department for assistance at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I ACCESS PAST NEWSLETTERS OR ANNOUNCEMENTS</pattern>
+    <template>
+        Past newsletters and announcements can be accessed through our website's News section or by contacting our Public Relations department at (123) 456-7890.
+    </template>
+</category>
+
+<!-- Appointments -->
+<category>
+    <pattern>HOW CAN I SCHEDULE AN APPOINTMENT</pattern>
+    <template>
+        To schedule an appointment, you can call our appointment line at (123) 456-7890 or use our online booking system on our website.
+    </template>
+</category>
+<category>
+    <pattern>CAN I BOOK APPOINTMENTS ONLINE</pattern>
+    <template>
+        Yes, you can book appointments online through our patient portal. Visit [hospitalwebsite.com] to get started.
+    </template>
+</category>
+<category>
+    <pattern>WHAT INFORMATION DO I NEED TO PROVIDE FOR AN APPOINTMENT</pattern>
+    <template>
+        When scheduling an appointment, please provide your full name, date of birth, contact information, and reason for the visit.
+    </template>
+</category>
+<category>
+    <pattern>HOW DO I RESCHEDULE MY APPOINTMENT</pattern>
+    <template>
+        To reschedule an appointment, log in to your patient portal account or call our appointment line at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>CAN I CANCEL MY APPOINTMENT ONLINE</pattern>
+    <template>
+        Yes, you can cancel your appointment online through our patient portal or by calling our appointment line.
+    </template>
+</category>
+<category>
+    <pattern>DO YOU SEND APPOINTMENT REMINDERS</pattern>
+    <template>
+        Yes, we send appointment reminders via email and SMS text message if you have opted in to receive them.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I CHECK THE DETAILS OF MY UPCOMING APPOINTMENT</pattern>
+    <template>
+        You can check the details of your upcoming appointment by logging into your patient portal account or by calling our appointment line.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IF I'M RUNNING LATE FOR MY APPOINTMENT</pattern>
+    <template>
+        If you're running late for your appointment, please call our office to inform us. We will do our best to accommodate you.
+    </template>
+</category>
+<category>
+    <pattern>CAN I SCHEDULE APPOINTMENTS FOR FAMILY MEMBERS</pattern>
+    <template>
+        Yes, you can schedule appointments for family members by providing their information when booking the appointment.
+    </template>
+</category>
+<category>
+    <pattern>ARE THERE ANY SPECIFIC PREPARATIONS I NEED TO MAKE BEFORE MY APPOINTMENT</pattern>
+    <template>
+        Some appointments may require specific preparations. Please check your appointment confirmation or call our office for details.
+    </template>
+</category>
+
+<!-- Medical Information -->
+<category>
+    <pattern>WHAT ARE COMMON SYMPTOMS AND CAUSES</pattern>
+    <template>
+        Common symptoms and potential causes include fever (caused by infections), coughing (caused by cold or flu viruses), and stomach pain (caused by digestive issues).
+    </template>
+</category>
+<category>
+    <pattern>CAN YOU PROVIDE GENERAL HEALTH ADVICE</pattern>
+    <template>
+        Yes, maintaining a balanced diet, regular exercise, and getting enough sleep are essential for good health.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IF I THINK I HAVE THE FLU OR A COLD</pattern>
+    <template>
+        If you think you have the flu or a cold, rest, drink fluids, and consider over-the-counter medications for symptom relief. Contact your healthcare provider if symptoms worsen.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I MANAGE CHRONIC CONDITIONS LIKE DIABETES OR HYPERTENSION</pattern>
+    <template>
+        Managing chronic conditions involves regular monitoring, medication adherence, and lifestyle changes such as diet and exercise.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IN CASE OF A MINOR INJURY</pattern>
+    <template>
+        For minor injuries like cuts or bruises, clean the wound thoroughly and apply a bandage. Seek medical attention if the injury is severe or if bleeding doesn't stop.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I STAY HEALTHY</pattern>
+    <template>
+        Staying healthy includes eating a balanced diet, exercising regularly, getting enough sleep, and avoiding tobacco and excessive alcohol consumption.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE THE SYMPTOMS OF A HEART ATTACK</pattern>
+    <template>
+        Symptoms of a heart attack may include chest pain or discomfort, shortness of breath, nausea, and cold sweats.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IF I SUSPECT SOMEONE IS HAVING A STROKE</pattern>
+    <template>
+        If you suspect someone is having a stroke, remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I PREVENT COMMON ILLNESSES</pattern>
+    <template>
+        Preventing common illnesses involves frequent handwashing, getting vaccinated, and practicing good hygiene habits.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE THE BENEFITS OF EXERCISE</pattern>
+    <template>
+        Exercise benefits include weight management, improved cardiovascular health, and enhanced mood and mental well-being.
+    </template>
+</category>
+
+<!-- Billing and Insurance -->
+<category>
+    <pattern>WHAT IS AN EXPLANATION OF MY BILL</pattern>
+    <template>
+        An explanation of your bill includes charges for services provided during your hospital visit, such as doctor's fees, tests, and medications.
+    </template>
+</category>
+<category>
+    <pattern>WHAT INFORMATION DO YOU HAVE ABOUT INSURANCE COVERAGE</pattern>
+    <template>
+        Information about insurance coverage includes accepted insurance plans and whether pre-authorization is required for specific services.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE MY PAYMENT OPTIONS</pattern>
+    <template>
+        Your payment options include online payments through our patient portal, credit card payments, and payment plans for eligible patients.
+    </template>
+</category>
+<category>
+    <pattern>DO YOU HAVE FINANCIAL ASSISTANCE PROGRAMS</pattern>
+    <template>
+        Yes, we have financial assistance programs for qualifying patients. Please contact our billing department for more information.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I APPLY FOR FINANCIAL ASSISTANCE</pattern>
+    <template>
+        To apply for financial assistance, please complete the application form available on our website or contact our billing department.
+    </template>
+</category>
+<category>
+    <pattern>WHAT IS YOUR PRIVACY POLICY REGARDING PATIENT INFORMATION</pattern>
+    <template>
+        Our privacy policy ensures that your medical information is kept confidential and is only shared with authorized personnel for treatment purposes.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE THE COSTS ASSOCIATED WITH COMMON PROCEDURES</pattern>
+    <template>
+        Costs for common procedures vary. For estimates, please contact our billing department or request an estimate through our patient portal.
+    </template>
+</category>
+<category>
+    <pattern>WHAT DO I DO IF I HAVE QUESTIONS ABOUT MY BILL</pattern>
+    <template>
+        If you have questions about your bill, please contact our billing department at (123) 456-7890 for assistance.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I REQUEST AN ITEMIZED BILL</pattern>
+    <template>
+        To request an itemized bill, please contact our billing department and provide your patient information and the billing details you need itemized.
+    </template>
+</category>
+<category>
+    <pattern>WHAT IS YOUR REFUND POLICY</pattern>
+    <template>
+        Our refund policy allows for refunds in certain circumstances, such as overpayments or adjustments to charges. Please contact our billing department for details.
+    </template>
+</category>
+
+<!-- Patient Information -->
+<category>
+    <pattern>HOW CAN I ACCESS MY MEDICAL RECORDS</pattern>
+    <template>
+        You can access your medical records through our patient portal or by submitting a request to our medical records department.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I CHECK MY TEST RESULTS</pattern>
+    <template>
+        To check your test results, log in to your patient portal or contact your healthcare provider's office for assistance.
+    </template>
+</category>
+<category>
+    <pattern>HOW DO I REFILL MY PRESCRIPTION</pattern>
+    <template>
+        To refill your prescription, you can request a refill through our patient portal, call your pharmacy, or contact your healthcare provider for a new prescription.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IF I LOST MY PRESCRIPTION</pattern>
+    <template>
+        If you've lost your prescription, please contact your healthcare provider for a replacement or visit our clinic for assistance.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I REQUEST A COPY OF MY MEDICAL RECORDS</pattern>
+    <template>
+        To request a copy of your medical records, please fill out the Medical Records Request Form available on our website or contact our medical records department.
+    </template>
+</category>
+<category>
+    <pattern>WHAT DO I NEED TO BRING FOR MY APPOINTMENT</pattern>
+    <template>
+        For your appointment, please bring your insurance card, identification, list of medications, and any relevant medical records or test results.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I REQUEST A MEDICAL CERTIFICATE</pattern>
+    <template>
+        To request a medical certificate, please contact your healthcare provider's office or visit our clinic for assistance.
+    </template>
+</category>
+<category>
+    <pattern>WHAT SHOULD I DO IF I NEED A SECOND OPINION</pattern>
+    <template>
+        If you need a second opinion, please discuss this with your primary care physician or specialist, who can refer you to another healthcare provider for an evaluation.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I UPDATE MY CONTACT INFORMATION</pattern>
+    <template>
+        To update your contact information, log in to your patient portal and update your profile information, or contact our registration department for assistance.
+    </template>
+</category>
+<category>
+    <pattern>WHAT IS THE PROCESS FOR DISCHARGE FROM THE HOSPITAL</pattern>
+    <template>
+        The discharge process involves finalizing medical records, medication instructions, follow-up appointments, and transportation arrangements if needed.
+    </template>
+</category>
+
+<!-- Miscellaneous -->
+<category>
+    <pattern>HOW CAN I DONATE TO YOUR HOSPITAL FOUNDATION</pattern>
+    <template>
+        To donate to our hospital foundation, please visit our website's donation page or contact our Fundraising department at (123) 456-7890.
+    </template>
+</category>
+<category>
+    <pattern>WHAT EDUCATIONAL PROGRAMS DO YOU OFFER</pattern>
+    <template>
+        Educational programs include health seminars, wellness workshops, and medical training opportunities. Check our Events page on the website for upcoming programs.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I REQUEST MEDICAL RECORDS FOR LEGAL PURPOSES</pattern>
+    <template>
+        To request medical records for legal purposes, please contact our Legal Affairs department or submit a formal request through our medical records department.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I PARTICIPATE IN CLINICAL TRIALS</pattern>
+    <template>
+        To participate in clinical trials, please contact our Clinical Research department or visit our website's Clinical Trials section for more information.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR LABORATORY SERVICES</pattern>
+    <template>
+        Laboratory services include blood tests, urinalysis, and other diagnostic tests. Please visit our Laboratory Services department for more information.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR ADMISSION PROCEDURES</pattern>
+    <template>
+        Admission procedures involve completing necessary forms, providing insurance information, and meeting with hospital staff for assessment and room assignment.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I OBTAIN MEDICAL EQUIPMENT OR SUPPLIES</pattern>
+    <template>
+        To obtain medical equipment or supplies, please contact our Medical Equipment Services department or visit our hospital supply store.
+    </template>
+</category>
+<category>
+    <pattern>WHAT ARE YOUR POLICIES ON PATIENT SAFETY</pattern>
+    <template>
+        Our policies on patient safety include infection control measures, patient identification protocols, and emergency preparedness procedures.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I REQUEST A COPY OF MY BIRTH CERTIFICATE</pattern>
+    <template>
+        To request a copy of your birth certificate, please contact the Vital Records department in the city where you were born or visit their website for instructions.
+    </template>
+</category>
+<category>
+    <pattern>HOW CAN I ACCESS SUPPORT SERVICES FOR CANCER PATIENTS</pattern>
+    <template>
+        Support services for cancer patients include counseling, support groups, and access to specialized oncology nurses. Contact our Cancer Support Services department for assistance.
+    </template>
+</category>
+
+<!-- End of AIML -->
+</aiml>
